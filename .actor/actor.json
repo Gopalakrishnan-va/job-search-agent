@@ -1,0 +1,48 @@
+{
+    "actorSpecification": 1,
+    "name": "job-search-agent-test",
+    "title": "Job Search Agent-test",
+    "description": "AI-powered job search agent that analyzes your resume and finds matching job opportunities",
+    "version": "0.1.0",
+    "dockerfile": "./Dockerfile",
+    "input": {
+        "title": "Job Search Agent Input",
+        "type": "object",
+        "schemaVersion": 1,
+        "properties": {
+            "resumeText": {
+                "title": "Resume Text",
+                "type": "string",
+                "description": "The full text of your resume",
+                "editor": "textarea"
+            },
+            "searchPreferences": {
+                "title": "Search Preferences",
+                "type": "object",
+                "description": "Optional search preferences",
+                "properties": {
+                    "location": {
+                        "title": "Location",
+                        "type": "string",
+                        "description": "Preferred job location",
+                        "default": ""
+                    },
+                    "workMode": {
+                        "title": "Work Mode",
+                        "type": "string",
+                        "description": "Preferred work mode",
+                        "enum": ["remote", "hybrid", "onsite", "any"],
+                        "default": "any"
+                    },
+                    "maxResults": {
+                        "title": "Maximum Results",
+                        "type": "integer",
+                        "description": "Maximum number of job results to return",
+                        "default": 10
+                    }
+                }
+            }
+        },
+        "required": ["resumeText"]
+    }
+} 
