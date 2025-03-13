@@ -5,8 +5,6 @@
     "description": "AI-powered job search agent that analyzes your resume and finds matching job opportunities",
     "version": "0.1.0",
     "dockerfile": "./Dockerfile",
-    "runtime": "python3",
-    "buildTag": "latest",
     "input": {
         "title": "Job Search Agent Input",
         "type": "object",

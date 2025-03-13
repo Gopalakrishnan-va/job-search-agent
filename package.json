@@ -1,0 +1,12 @@
+{
+  "name": "job-search-agent",
+  "version": "0.1.0",
+  "description": "AI-powered job search agent that analyzes your resume and finds matching job opportunities",
+  "main": "main.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "python -m src.main"
+  },
+  "author": "",
+  "license": "MIT"
+} 
