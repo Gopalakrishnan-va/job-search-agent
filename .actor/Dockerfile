@@ -9,5 +9,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy source code
 COPY . ./
 
+# Make sure the entrypoint is executable
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
 # Run the actor
-CMD ["python", "-m", "src.main"] 
+ENTRYPOINT ["python", "-m", "src.main"] 

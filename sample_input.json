@@ -1,0 +1,8 @@
+{
+  "resumeText": "JOHN DOE\nSoftware Engineer\nNew York, NY\njohn.doe@email.com\n\nSUMMARY\nExperienced software engineer with 5 years of expertise in full-stack development, specializing in Python and React. Passionate about building scalable web applications and implementing AI/ML solutions.\n\nSKILLS\n- Programming: Python, JavaScript, TypeScript, SQL\n- Frameworks: React, Django, FastAPI, Node.js\n- Cloud: AWS, Docker, Kubernetes\n- AI/ML: TensorFlow, PyTorch, LangChain\n- Soft Skills: Team Leadership, Project Management, Agile Methodologies\n\nWORK EXPERIENCE\n\nSenior Software Engineer | TechCorp Inc.\nJan 2021 - Present\n- Led development of microservices-based architecture serving 1M+ users\n- Implemented ML-powered recommendation system increasing user engagement by 40%\n- Mentored junior developers and managed a team of 5 engineers\n\nSoftware Engineer | StartupX\nJun 2018 - Dec 2020\n- Developed full-stack web applications using React and Django\n- Optimized database queries reducing response time by 60%\n- Implemented CI/CD pipelines using GitHub Actions\n\nEDUCATION\nBachelor of Science in Computer Science\nNew York University\n2014 - 2018\n\nCERTIFICATIONS\n- AWS Certified Solutions Architect\n- Professional Scrum Master I (PSM I)",
+  "searchPreferences": {
+    "location": "New York, NY",
+    "workMode": "remote",
+    "maxResults": 5
+  }
+} 
